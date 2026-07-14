@@ -3,16 +3,15 @@ on:
   push:
 
 
-  jobs:
-    first-job:
-      runs-on: ubuntu-latest
-
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
     steps:
       - name: print welcome
         run: echo welcome rukesh
       - name: Run linux commands
         run: |
-             pwd
-             hostname
-             date
-             uptime
+            pwd
+            hostname
+            date
+            uptime
