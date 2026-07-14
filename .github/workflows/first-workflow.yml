@@ -9,10 +9,10 @@ on:
 
     steps:
       - name: print welcome
-        run: echo "welcome rukesh"branch_protection_rule: 
+        run: echo welcome rukesh
       - name: Run linux commands
-         run: |
-            pwd
-            hostname
-            date
-            uptime
+        run: |
+             pwd
+             hostname
+             date
+             uptime
